@@ -31,12 +31,13 @@ h1 {
   color: black;
   font-size: 38pt;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 70px;
   font-family: 'Megrim', 'Arial', cursive;
+  color: white;
 }
 .text-box {
   margin: 25px 0px 0px 310px;
-  padding: 50px 25px 0px 25px;
+  padding: 50px;
   display: inline-block;
   font-family: 'Roboto Slab', 'Arial',serif;
   text-align: center;
@@ -45,20 +46,22 @@ h1 {
   width: 700px;
   height: 400px;
 }
-.learn-more-list {
-  display: inline-block;
-  margin: 10px;
-  padding: 5px;
-  float: left;
-  /*z-index: 2;
-  top: 0;
-  font-family: 'Roboto Slab', 'Arial', serif;*/
+.learn-more-icon-list {
+  width: 65%;
+  margin: 5% 2%;
+  padding: 2%;
+  display: inline;
+  font-family: 'Roboto Slab', 'Arial', serif;
+  color: black;
 }
 .other-links-li {
   margin: 20px;
   padding: 5px;
   float: left;
   font-family: 'Roboto Slab', 'Arial', serif;
+}
+.code-portfolio-li {
+  
 }
 .resume-1 {
   text-align: center;
