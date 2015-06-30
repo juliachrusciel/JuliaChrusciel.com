@@ -8,6 +8,7 @@
   top: 0;
   font-family: 'Megrim', 'Arial', cursive;
   font-size: 25px;
+  color: rgb(255,255,240);
 }
 .nav-header-li{
   display: inline-block;
@@ -33,18 +34,22 @@ h1 {
   text-align: center;
   padding-top: 70px;
   font-family: 'Megrim', 'Arial', cursive;
-  color: white;
+  font-weight: bold;
+  color: rgb(249,97,81);
 }
 .text-box {
-  margin: 25px 0px 0px 310px;
-  padding: 50px;
+  margin: 20px 0px 0px 240px;
+  padding: 35px;
   display: inline-block;
   font-family: 'Roboto Slab', 'Arial',serif;
   text-align: center;
 
   background-color: rgba(44, 44, 44, 0.7);
-  width: 700px;
-  height: 400px;
+  width: 850px;
+  height: 425px;
+}
+p {
+  color: rgb(112, 179, 250);
 }
 .learn-more-icon-list {
   width: 65%;
@@ -52,7 +57,6 @@ h1 {
   padding: 2%;
   display: inline;
   font-family: 'Roboto Slab', 'Arial', serif;
-  color: black;
 }
 .other-links-li {
   margin: 20px;
@@ -60,13 +64,48 @@ h1 {
   float: left;
   font-family: 'Roboto Slab', 'Arial', serif;
 }
-.code-portfolio-li {
-  
+.code-names-table {
+  width: 750px;
+  text-align: left-justify;
+  position: relative;
+}
+.code-names-th {
+  font-family: 'Roboto Slab', 'Arial', serif;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 10px;
+  color: rgb(255, 255, 240);
+}
+.code-explain-td {
+  position: relative;
+  color: rgb(112, 179, 250);
+}
+img.medium {
+  float: center;
+  width: 245px;
+  height: 135px;
+}
+.code-explain-td {
+  margin: 10px;
+  padding: 15px;
+  font-family: 'Roboto Slab', 'Arial', serif;
+  color: rgb(112, 179, 250);
 }
 .resume-1 {
   text-align: center;
-  margin: -200px 0px 0px 335px;
+  /*margin: -200px 0px 0px 335px;*/
 }
+#languages-used-id {
+  color: rgb(255, 255, 240);
+  font-size: 20px;
+}
+.languages-class {
+  list-style-type: none;
+}
+.languages-used-class {
+  color: rgb(112, 179, 250);
+}
+
 
 section {
   height: 100vh;
