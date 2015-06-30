@@ -105,7 +105,39 @@ img.medium {
 .languages-used-class {
   color: rgb(112, 179, 250);
 }
-
+#skills-id {
+  color: rgb(255, 255, 240);
+  font-size: 20px;
+  padding: 10px 0 0 0;
+}
+.skills-programming-class {
+  color: rgb(112, 179, 250);
+}
+.skills-human-lang-class {
+  color: rgb(112, 179, 250);
+}
+#education {
+  color: rgb(255, 255, 240);
+  font-size: 20px;
+  padding: 10px 0 0 0;
+}
+.education-li {
+  margin: 5px;
+  padding: 5px;
+  list-style-type: none;
+}
+.work-li {
+  margin: 5px;
+  padding: 5px;
+  color: rgb(112, 179, 250);
+  list-style-type: none;
+}
+.resume-1, .resume-2, .resume-3 {
+  width: 250px;
+  float: left;
+  /*position: relative;
+  display: inline;*/
+}
 
 section {
   height: 100vh;
