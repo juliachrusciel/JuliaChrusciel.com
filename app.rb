@@ -7,3 +7,6 @@ ActiveRecord::Base.establish_connection(
 )
 
 # require './models/food'
+get '/' do
+  erb :index
+end
